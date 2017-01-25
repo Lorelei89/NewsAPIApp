@@ -106,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				4151F3161E393683007F3B1C /* NewsTableViewController */,
-				41115ED11E38E75F00A7C0CD /* AppDelegate.swift */,
-				41115ED51E38E75F00A7C0CD /* Main.storyboard */,
+				4151F3181E393764007F3B1C /* App Delegate */,
+				4151F3191E393770007F3B1C /* Storyboard */,
 				41115ED81E38E75F00A7C0CD /* Assets.xcassets */,
 				41115EDA1E38E75F00A7C0CD /* LaunchScreen.storyboard */,
 				41115EDD1E38E75F00A7C0CD /* Info.plist */,
@@ -163,10 +163,34 @@
 		4151F3161E393683007F3B1C /* NewsTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				41115EFF1E38EE6E00A7C0CD /* ArticleCell.swift */,
+				4151F3171E393746007F3B1C /* ArticleTableViewCell */,
 				41115ED31E38E75F00A7C0CD /* ViewController.swift */,
 			);
 			name = NewsTableViewController;
+			sourceTree = "<group>";
+		};
+		4151F3171E393746007F3B1C /* ArticleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				41115EFF1E38EE6E00A7C0CD /* ArticleCell.swift */,
+			);
+			name = ArticleTableViewCell;
+			sourceTree = "<group>";
+		};
+		4151F3181E393764007F3B1C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				41115ED11E38E75F00A7C0CD /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4151F3191E393770007F3B1C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				41115ED51E38E75F00A7C0CD /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
